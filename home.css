@@ -7,12 +7,33 @@ h1 {
     animation-name: in;
     animation-duration: 3s;
 }
+h3 {
+    color: rgb(206, 110, 0);
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+h5 {
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: rgb(29, 122, 0);
+}
+a:hover {
+    color: rgb(255, 166, 0);
+}
+a:active {
+    color: rgb(255, 115, 0);
+}
 footer {
     padding: 12px;
     color: rgb(134, 209, 91);
     text-align: center;
     border: 2px double rgba(255, 255, 255, 0.4);
-    font: bold 1.2vw Verdana, Geneva, sans-serif;
+    font: bold 1.2vw Tahoma, Geneva, sans-serif;
     font-weight: 1;
 }
 body {
