@@ -15,7 +15,22 @@ function cclick() {
     var v = y.replace(/damn/g, "dang")
     var g = v.replace(/Damn/g, "Dang")
     var p = g.replace(/DAMN/g, "DANG")
-    document.querySelector("span").textContent = p;
+    var pp = p.replace(/Nigger/g, "Nipple")
+    var ppp = pp.replace(/NIGGER/g, "NIPPLE")
+    var pppp = ppp.replace(/nigger/g, "nipple")
+    var ppppp = pppp.replace(/nigga/g, "nerd")
+    var gg = ppppp.replace(/Nigga/g, "Nerd")
+    var ttr = gg.replace(/NIGGA/g, "NERD")
+    var why = ttr.replace(/cunt/g, "vagina")
+    var why2 = why.replace(/Cunt/g, "Vagina")
+    var why3 = why.replace(/CUNT/g, "VAGINA")
+    var why4 = why.replace(/Cock/g, "Penis")
+    var why5 = why.replace(/cock/g, "penis")
+    var why6 = why.replace(/COCK/g, "PENIS")
+    var why7 = why.replace(/ass/g, "arse")
+    var why8 = why.replace(/Ass/g, "Arse")
+    var why9 = why.replace(/ASS/g, "ARSE")
+    document.querySelector("span").textContent = why9;
 }
 //note: no feelings were hurt within the making of this
 //and if a word is vulgar in any part of the word it was added
