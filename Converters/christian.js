@@ -23,13 +23,13 @@ function cclick() {
     var ttr = gg.replace(/NIGGA/g, "NERD")
     var why = ttr.replace(/cunt/g, "vagina")
     var why2 = why.replace(/Cunt/g, "Vagina")
-    var why3 = why.replace(/CUNT/g, "VAGINA")
-    var why4 = why.replace(/Cock/g, "Penis")
-    var why5 = why.replace(/cock/g, "penis")
-    var why6 = why.replace(/COCK/g, "PENIS")
-    var why7 = why.replace(/ass/g, "arse")
-    var why8 = why.replace(/Ass/g, "Arse")
-    var why9 = why.replace(/ASS/g, "ARSE")
+    var why3 = why2.replace(/CUNT/g, "VAGINA")
+    var why4 = why3.replace(/Cock/g, "Penis")
+    var why5 = why4.replace(/cock/g, "penis")
+    var why6 = why5.replace(/COCK/g, "PENIS")
+    var why7 = why6.replace(/ass/g, "arse")
+    var why8 = why7.replace(/Ass/g, "Arse")
+    var why9 = why8.replace(/ASS/g, "ARSE")
     document.querySelector("span").textContent = why9;
 }
 //note: no feelings were hurt within the making of this
